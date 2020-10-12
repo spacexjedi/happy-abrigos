@@ -1,2 +1,1 @@
-# nlw
-Another week by Rocketseat
+# Construido durante a NLW do dia das crianças

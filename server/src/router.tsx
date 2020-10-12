@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Landing from './pages/Landing';
-import OrphanagesMap from './pages/OrphanagesMap';
+import PointsMap from './pages/PointsMap';
 import NotFound from './pages/NotFound';
 
 const Router: React.FC = () => {
@@ -10,7 +10,7 @@ const Router: React.FC = () => {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Landing} />
-        <Route path="/app" exact component={OrphanagesMap} />
+        <Route path="/app" exact component={PointsMap} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

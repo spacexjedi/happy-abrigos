@@ -16,7 +16,7 @@ const PointsMap: React.FC = () => {
       <aside>
         <header>
           <img src={mapMarkerImg} alt="Happy" />
-          <h2>Escolha um ponto no maa</h2>
+          <h2>Escolha um ponto no mapa</h2>
           <p>Estão esperando a sua visita 😊 </p>
         </header>
 
